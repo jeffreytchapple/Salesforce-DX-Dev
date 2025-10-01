@@ -1,13 +1,14 @@
 {
-  "orgName": "jeffreychapple company",
+  "orgName": "jeffreychapple Developer",
   "edition": "Developer",
-  "features": ["EnableSetPasswordInApi"],
+  "features": ["EnableSetPasswordInApi","API","MultiCurrency","Communities","PersonAccounts","ServiceCloud"],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
     },
     "mobileSettings": {
-      "enableS1EncryptedStoragePref2": false
+      "enableS1EncryptedStoragePref2": false,
+      "enablePushNotification": true
     }
   }
 }
