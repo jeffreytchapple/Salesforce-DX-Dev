@@ -1,0 +1,11 @@
+{
+  "template": "lwr",
+  "siteType": "ExperienceSite",
+  "publisher": "ExperienceBundle",
+  "viewType": "custom",
+  "label": "LWR Storefront",
+  "defaultLanguage": "en_US",
+  "bundledBrandingSet": "theme_default",
+  "isHidden": false,
+  "type": "ExperienceBundle"
+}

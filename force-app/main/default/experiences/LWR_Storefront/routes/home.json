@@ -1,0 +1,31 @@
+{
+  "id": "home",
+  "label": "Home",
+  "routeType": "home",
+  "type": "route",
+  "isDefault": true,
+  "urlPrefix": "",
+  "pageRef": {
+    "type": "standard__namedPage",
+    "attributes": {
+      "pageName": "home"
+    }
+  },
+  "views": [
+    {
+      "id": "homeView",
+      "type": "view",
+      "label": "Home View",
+      "viewType": "lwr",
+      "themeLayoutType": "Inner",
+      "regions": [
+        {
+          "id": "main",
+          "type": "region",
+          "regionName": "main",
+          "components": []
+        }
+      ]
+    }
+  ]
+}

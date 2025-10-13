@@ -1,0 +1,15 @@
+{
+  "id": "homeView",
+  "type": "view",
+  "viewType": "lwr",
+  "label": "Home View",
+  "themeLayoutType": "Inner",
+  "regions": [
+    {
+      "id": "main",
+      "type": "region",
+      "regionName": "main",
+      "components": []
+    }
+  ]
+}

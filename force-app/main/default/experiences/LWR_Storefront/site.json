@@ -1,0 +1,9 @@
+{
+  "label": "LWR Storefront",
+  "description": "LWR Experience Cloud storefront",
+  "template": "lwr",
+  "type": "site",
+  "themeLayoutType": "Inner",
+  "defaultLanguage": "en_US",
+  "isAvailableToGuests": true
+}
