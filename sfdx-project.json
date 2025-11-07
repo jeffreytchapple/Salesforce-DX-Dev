@@ -5,7 +5,7 @@
       "default": true
     }
   ],
-  "name": "Salesforce DX_10_01_2025",
+  "name": "Salesforce DX_11_07_2025",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "64.0"

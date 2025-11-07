@@ -7,8 +7,7 @@
       "enableS1DesktopEnabled": true
     },
     "mobileSettings": {
-      "enableS1EncryptedStoragePref2": false,
-      "enablePushNotification": true
+      "enableS1EncryptedStoragePref2": false
     }
   }
 }
