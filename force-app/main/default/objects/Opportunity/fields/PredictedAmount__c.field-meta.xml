@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PredictedAmount__c</fullName>
+    <description>Predicted revenue amount for the Opportunity (monthly forecast model output).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Model-predicted amount contribution for this opportunity.</inlineHelpText>
+    <label>Predicted Amount</label>
+    <precision>18</precision>
+    <scale>2</scale>
+    <type>Currency</type>
+</CustomField>

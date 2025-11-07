@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Forecast App</label>
+
+    <classAccesses>
+        <apexClass>ForecastController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ForecastPredictor</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ForecastService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.PredictedAmount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.PredictedProbability__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>Forecast_Config__mdt</name>
+    </customMetadataTypeAccesses>
+</PermissionSet>

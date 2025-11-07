@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>Default</fullName>
+    <label>Default</label>
+    <protected>false</protected>
+    <values>
+        <field>TimeHorizonMonths__c</field>
+        <value xsi:type="xsd:int" xmlns:xsd="http://www.w3.org/2001/XMLSchema">6</value>
+    </values>
+    <values>
+        <field>ConfidenceLevel__c</field>
+        <value xsi:type="xsd:double" xmlns:xsd="http://www.w3.org/2001/XMLSchema">0.8</value>
+    </values>
+    <values>
+        <field>DefaultMonthlyGoal__c</field>
+        <value xsi:type="xsd:double" xmlns:xsd="http://www.w3.org/2001/XMLSchema">0</value>
+    </values>
+    <values>
+        <field>UseEinstein__c</field>
+        <value xsi:type="xsd:boolean" xmlns:xsd="http://www.w3.org/2001/XMLSchema">true</value>
+    </values>
+</CustomMetadata>
