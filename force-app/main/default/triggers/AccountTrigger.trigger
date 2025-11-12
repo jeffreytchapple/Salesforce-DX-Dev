@@ -16,7 +16,7 @@ trigger AccountTrigger on Account (
             AccountTriggerHandler.beforeUpdate(Trigger.new, Trigger.oldMap);
         }
         if (Trigger.isDelete) {
-            AccountTriggerHandler.beforeDelete(Trigger.oldMap);
+            AccountTriggerHandler.beforeDelete(Trigger.old);
         }
     }
 
@@ -28,7 +28,7 @@ trigger AccountTrigger on Account (
             AccountTriggerHandler.afterUpdate(Trigger.new, Trigger.oldMap);
         }
         if (Trigger.isDelete) {
-            AccountTriggerHandler.afterDelete(Trigger.oldMap);
+            AccountTriggerHandler.afterDelete(Trigger.old);
         }
         if (Trigger.isUndelete) {
             AccountTriggerHandler.afterUndelete(Trigger.new);
